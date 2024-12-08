@@ -17,6 +17,20 @@
             h5+p{
                 color: red;
             }
+            /*psued classes*/
+            a:hover{
+                color:rgb(215, 250, 220)
+            }
+            li:nth-child(3){
+                background-color: rgb(174, 0, 255);
+            }
+            div:not(.div1){
+                color: rgb(99, 42, 165);
+            }
+            /*Pseudo Elements*/
+            p::first-letter{
+                font-size: 40px;
+            }
         </style>
     </head>
     <body>
@@ -33,5 +47,9 @@
         <h5>Description about food</h5>
         <p>pizza, cake and dunut are  made in 15 min</p>
         <p>Ice cream comes with gift</p>
+        <a href="#">Instagram</a>
+        <div class="div1">This is my first division</div>
+        <div class="div2">This is my second division</div>
+        <div class="div3">This is my third division</div>
     </body>
 </html>
